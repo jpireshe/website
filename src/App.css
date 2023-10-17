@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 body {
   height: 100vh;
-  background-color: #11141c;
+  background-color: #000512;
   color: white;
+  font-family: "Onest", sans-serif;
+  font-size: 1.5vmin;
+  font-weight: 400;
+  padding: 2vmin 3vmin;
 }

@@ -1,14 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Logo from "../../components/logo";
+import ButtonLink from "../../components/buttonLink";
+import SiteTitle from "../../components/siteTitle";
 
-const Home = () => {
+const About: () => React.JSX.Element = () => {
   return (
     <div>
-      <h1>Toin & Jonas - Sobre</h1>
-      <p></p>
-      <Link to="/">Home</Link>
+      <Logo />
+      <SiteTitle />
+      <ButtonLink to="/" text="Home" />
     </div>
   );
 };
 
-export default Home;
+export default About;

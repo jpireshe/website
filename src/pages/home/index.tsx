@@ -1,12 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./index.css";
+import ButtonLink from "../../components/buttonLink";
+import SiteTitle from "../../components/siteTitle/index";
 
-const Home: React.FC = () => {
+const Home: () => React.JSX.Element = () => {
   return (
     <div className="home">
-      <h1>Toin & Jonas</h1>
-      <Link to="/about">Sobre</Link>
+      <SiteTitle />
+      <ButtonLink to="/about" text="Sobre" />
     </div>
   );
 };
