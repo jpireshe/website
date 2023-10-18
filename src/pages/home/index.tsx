@@ -5,7 +5,7 @@ import SiteTitle from "../../components/siteTitle/index";
 
 const Home: () => React.JSX.Element = () => {
   return (
-    <div className="home">
+    <div className="PAGES-home">
       <SiteTitle />
       <ButtonLink to="/about" text="Sobre" />
     </div>

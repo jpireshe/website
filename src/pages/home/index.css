@@ -1,7 +1,8 @@
-.home {
+.PAGES-home {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 5vmin;
   height: 100vh;
   padding: 1vmin;
 }
