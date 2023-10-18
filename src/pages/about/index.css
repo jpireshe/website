@@ -1,11 +1,7 @@
 .PAGES-about {
-}
-
-.PAGES-about .row {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  gap: 2vmin;
   align-items: center;
-  background-color: black;
-  width: 100vw;
-  padding: 1vmin 0;
+  height: 100vh;
 }

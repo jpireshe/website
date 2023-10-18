@@ -1,0 +1,13 @@
+.COMPONENTS-site-title-white {
+  font-size: 3vmin;
+  color: #f8f8f8;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.COMPONENTS-site-title {
+  font-size: 3vmin;
+  color: #101010;
+  text-decoration: none;
+  font-weight: 700;
+}

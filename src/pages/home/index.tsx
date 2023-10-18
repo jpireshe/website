@@ -1,13 +1,11 @@
 import React from "react";
 import "./index.css";
-import ButtonLink from "../../components/buttonLink";
-import SiteTitle from "../../components/siteTitle/index";
+import NavBar from "../../components/navbar";
 
 const Home: () => React.JSX.Element = () => {
   return (
     <div className="PAGES-home">
-      <SiteTitle />
-      <ButtonLink to="/about" text="Sobre" />
+      <NavBar />
     </div>
   );
 };
