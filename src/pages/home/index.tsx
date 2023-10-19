@@ -6,6 +6,7 @@ const Home: () => React.JSX.Element = () => {
   return (
     <div className="PAGES-home">
       <NavBar />
+      <h1>Welcome to Toin & Jonas!</h1>
     </div>
   );
 };
