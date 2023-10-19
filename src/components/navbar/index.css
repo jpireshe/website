@@ -1,9 +1,10 @@
 .COMPONENTS-navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   background-color: rgb(246, 246, 246);
   width: 100vw;
-  padding: 1vmin 0;
-  gap: 0;
+  padding: 2vmin 3vmin;
+  gap: 10vmin;
+  box-sizing: border-box;
 }
